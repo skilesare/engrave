@@ -1,0 +1,26 @@
+{
+    "name": "engrave",
+    "description": "The Engrave API for node.js",
+    "version": "0.1.0",
+    "author": "Austin Fatheree <austin.fatheree@gmail.com> (https://github.com/skilesare)",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:skilesare/engrave.git"
+    },
+    "keywords": [
+        "engrave",
+        "engravio"
+    ],
+    "main": "./lib/engrave.js",
+    "scripts": {
+        "test": "node-jasmine spec/"
+    },
+    "engines": {
+        "node": ">= 0.8.0"
+    },
+    "dependencies": {
+        "async"    : "latest"
+    },
+
+    "homepage": "http://github.com/skilesare/engrave"
+}
